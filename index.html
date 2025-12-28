@@ -112,23 +112,24 @@
   animation: glow-pulse 4s ease-in-out infinite;
 }
 
-@keyframes fadeInUp {
-  from { opacity: 0; transform: translateY(30px); }
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
   to { opacity: 1; transform: translateY(0); }
 }
 
 /* Hero-specific reveal (original timing) */
-.hero .reveal { 
-  animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards; 
+/* Fade-in for Hero */
+.animate-fade-in { 
+  animation: fadeIn 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) forwards; 
 }
 .hero .delay-100 { animation-delay: 0.1s; }
 .hero .delay-200 { animation-delay: 0.2s; }
 .hero .delay-300 { animation-delay: 0.3s; }
 
 /* Strategy/other sections reveal */
-.strategy .reveal, 
-section:not(.hero) .reveal { 
-  animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards; 
+/* Strategy reveal */
+.strategy .reveal { 
+  animation: fadeIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards; 
 }
 .strategy .delay-100, 
 section:not(.hero) .delay-100 { animation-delay: 0.1s; }
