@@ -5,10 +5,6 @@ import { TranslationType } from '../translations';
 const Strategy: React.FC<{ t: TranslationType }> = ({ t }) => {
 return (
   <section className="py-24 px-6 overflow-hidden">
-    {/* ADD THIS RED BOX AS FIRST CHILD */}
-    <div style={{background: 'red', color: 'white', padding: '20px', marginBottom: '20px'}}>
-      STRATEGY LOADED ✅
-    </div>
       <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-20 items-center">
         <div className="reveal opacity-0">
           <span className="inline-block py-1 px-3 bg-brand-primary/10 text-brand-primary font-bold tracking-widest text-[10px] uppercase mb-6 rounded-full border border-brand-primary/20">
