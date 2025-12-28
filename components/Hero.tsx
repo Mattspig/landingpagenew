@@ -5,7 +5,7 @@ import { TranslationType } from '../translations';
 const Hero: React.FC<{ t: TranslationType }> = ({ t }) => {
   const [bookingLoading, setBookingLoading] = useState(false);
   return (
-    <section className="relative pt-32 pb-20 md:pt-52 md:pb-40 px-6 overflow-hidden min-h-[90vh] flex items-center justify-center bg-gradient-to-b from-[#0a0a0f]/90 to-transparent">
+    <section className="relative pt-20 pb-20 md:pt-28 md:pb-40 px-6 overflow-hidden min-h-[90vh] flex items-center justify-center bg-gradient-to-b from-[#0a0a0f]/90 to-transparent">
       {/* Background Glows */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-brand-primary/20 rounded-full blur-[120px] -z-10 animate-pulse" />
       <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-brand-secondary/10 rounded-full blur-[100px] -z-10" />
