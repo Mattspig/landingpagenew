@@ -96,51 +96,47 @@
       }
 
       /* Animations */
-      @keyframes float {
-        0%, 100% { transform: translateY(0px); }
-        50% { transform: translateY(-10px); }
-      }
-      .animate-float {
-        animation: float 6s ease-in-out infinite;
-      }
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
 
-      @keyframes glow-pulse {
-        0%, 100% { opacity: 0.5; }
-        50% { opacity: 0.8; }
-      }
-      .animate-glow {
-        animation: glow-pulse 4s ease-in-out infinite;
-      }
+@keyframes glow-pulse {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 0.8; }
+}
+.animate-glow {
+  animation: glow-pulse 4s ease-in-out infinite;
+}
 
-     @keyframes fadeInUp {
+@keyframes fadeInUp {
   from { opacity: 0; transform: translateY(30px); }
   to { opacity: 1; transform: translateY(0); }
 }
-.reveal { 
+
+/* Hero-specific reveal (original timing) */
+.hero .reveal { 
   animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards; 
-  opacity: 0;
 }
-.delay-100 { animation-delay: 0.1s; }
-.delay-200 { animation-delay: 0.2s; }
-.delay-300 { animation-delay: 0.3s; }
+.hero .delay-100 { animation-delay: 0.1s; }
+.hero .delay-200 { animation-delay: 0.2s; }
+.hero .delay-300 { animation-delay: 0.3s; }
 
+/* Strategy/other sections reveal */
+.strategy .reveal, 
+section:not(.hero) .reveal { 
+  animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards; 
+}
+.strategy .delay-100, 
+section:not(.hero) .delay-100 { animation-delay: 0.1s; }
+.strategy .delay-200, 
+section:not(.hero) .delay-200 { animation-delay: 0.2s; }
+.strategy .delay-300, 
+section:not(.hero) .delay-300 { animation-delay: 0.3s; }
 
-      /* Strategy dashboard fixes */
-.bg-brand-primary { background-color: #8B5CF6 !important; }
-.bg-brand-secondary { background-color: #3B82F6 !important; }
-.bg-brand-card { background-color: #13131F !important; }
-.text-brand-primary { color: #8B5CF6 !important; }
-.text-brand-accent { color: #06b6d4 !important; }
-.border-brand-primary { border-color: #8B5CF6 !important; }
-.bg-brand-primary\/10 { background-color: rgba(139, 92, 246, 0.1) !important; }
-.bg-brand-primary\/20 { background-color: rgba(139, 92, 246, 0.2) !important; }
-.bg-emerald-500\/10 { background-color: rgba(16, 185, 129, 0.1) !important; }
-.bg-emerald-500\/20 { background-color: rgba(16, 185, 129, 0.2) !important; }
-
-      
-      .delay-100 { animation-delay: 0.1s; }
-      .delay-200 { animation-delay: 0.2s; }
-      .delay-300 { animation-delay: 0.3s; }
 
       /* Neon Button */
       .btn-neon {
