@@ -125,7 +125,7 @@ const translations = {
      "Clear roadmap if you decide to move forward"
    ]
  }  
-};  // ← Keep this semicolon
+}
 
 
 const App = () => {
