@@ -20,9 +20,11 @@ const App = () => {
       <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'bg-slate-950/90 backdrop-blur-xl border-b border-white/5 shadow-2xl' : 'bg-transparent'}`}>
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
           <div className="flex items-center gap-3 cursor-pointer group" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-            <div className="w-10 h-10 bg-gradient-to-br from-violet-500 to-purple-600 rounded-xl flex items-center justify-center font-bold text-lg transform group-hover:scale-110 transition-transform shadow-lg shadow-violet-500/50">
-              F
-            </div>
+            <img 
+  src="/logo-flowify.png" 
+  alt="Flowify" 
+  className="w-10 h-10 rounded-xl object-contain transform group-hover:scale-110 transition-transform shadow-lg shadow-violet-500/50"
+/>
             <span className="text-xl font-bold tracking-tight">FLOWIFY</span>
           </div>
 
