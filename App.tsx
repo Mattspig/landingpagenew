@@ -125,7 +125,7 @@ const translations = {
         "Clear roadmap if you decide to move forward"
       ]
     }  
-  };    
+  }    
       cta: "Book Your Free Strategy Session",
       formHeadline: "Or Send Us a Message",
       formFields: {
