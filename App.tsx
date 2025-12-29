@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Contact from './Contact';           // ← YOUR CALENDLY + FORMSPREE
+import Contact from './components/Contact';
 import { translations } from './translations';  // ← YOUR BILINGUAL
 
 const translations = {
