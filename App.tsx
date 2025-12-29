@@ -116,28 +116,17 @@ const translations = {
       mission: "Flowify brings enterprise-grade automation to small teams. We're starting with service businesses in Luxembourg, proving that you don't need a big company budget to operate like one.",
       vision: "Every team should have the tools to maximize revenue without burning out."
     },
-    contact: {
-      headline: "Let's Map Your Revenue Opportunity",
-      subtitle: "30 minutes to understand if automation makes sense for your business",
-      benefits: [
-        "See exactly where you're losing time and money",
-        "Rough estimate of weekly hours we can recover",
-        "Clear roadmap if you decide to move forward"
-      ]
-    }  
-  }    
-      cta: "Book Your Free Strategy Session",
-      formHeadline: "Or Send Us a Message",
-      formFields: {
-        name: "Full Name",
-        company: "Company Name",
-        email: "Work Email",
-        enquiry: "How do enquiries reach you today?",
-        volume: "Weekly enquiry volume",
-        submit: "Request Consultation"
-      }
-    }
-  }
+ contact: {
+   headline: "Let's Map Your Revenue Opportunity",
+   subtitle: "30 minutes to understand if automation makes sense for your business",
+   benefits: [
+     "See exactly where you're losing time and money",
+     "Rough estimate of weekly hours we can recover",
+     "Clear roadmap if you decide to move forward"
+   ]
+ }  
+};  // ← Keep this semicolon
+
 
 const App = () => {
   const [scrolled, setScrolled] = useState(false);
