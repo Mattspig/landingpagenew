@@ -68,23 +68,26 @@ const App = () => {
             Capture, qualify, and respond to every lead in minutes—not hours. Free your team from manual follow-ups and never miss an opportunity again.
           </p>
 
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
-            <button 
-  onClick={() => {
-    if (window.Calendly && typeof window.Calendly.showPopupWidget === 'function') {
-      window.Calendly.showPopupWidget('https://calendly.com/matthieu-spigarelli/30min');
-    } else {
-      window.open('https://calendly.com/matthieu-spigarelli/30min', '_blank');
-    }
-  }}
-  className="group px-8 py-4 bg-gradient-to-r from-violet-600 to-purple-600 rounded-full font-bold text-lg hover:shadow-2xl hover:shadow-violet-500/50 transition-all hover:scale-105 flex items-center gap-2"
->
-  Book Your Strategy Call
-  <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-  </svg>
-</button>
-          </div>
+         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
+  <button 
+    onClick={() => {
+      if (window.Calendly && typeof window.Calendly.showPopupWidget === 'function') {
+        window.Calendly.showPopupWidget('https://calendly.com/matthieu-spigarelli/30min');
+      } else {
+        window.open('https://calendly.com/matthieu-spigarelli/30min', '_blank');
+      }
+    }}
+    className="group px-8 py-4 bg-gradient-to-r from-violet-600 to-purple-600 rounded-full font-bold text-lg hover:shadow-2xl hover:shadow-violet-500/50 transition-all hover:scale-105 flex items-center gap-2"
+  >
+    Book Your Strategy Call
+    <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+    </svg>
+  </button>
+  <a href="#how-it-works" className="px-8 py-4 border-2 border-slate-700 rounded-full font-semibold text-lg hover:border-violet-500 hover:bg-slate-800/50 transition-all">
+    See How It Works
+  </a>
+</div>
 
           <div className="grid grid-cols-3 gap-8 max-w-3xl mx-auto p-8 bg-slate-900/50 backdrop-blur-xl rounded-2xl border border-white/5">
             <div className="text-center">
