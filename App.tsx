@@ -163,9 +163,9 @@ const App = () => {
               <div className="text-sm text-slate-500">on repetitive admin instead of high-value strategy</div>
             </div>
             <div className="p-8 bg-red-500/5 border border-red-500/20 rounded-2xl text-center hover:bg-red-500/10 transition-all">
-              <div className="text-5xl font-black text-red-400 mb-4">0</div>
-              <div className="text-lg font-semibold mb-2">Lag Time</div>
-              <div className="text-sm text-slate-500">between a trigger and an action</div>
+              <div className="text-5xl font-black text-red-400 mb-4">60%</div>
+              <div className="text-lg font-semibold mb-2">Idle Time</div>
+              <div className="text-sm text-slate-500">work sitting in inboxes waiting for approval</div>
             </div>
             <div className="p-8 bg-red-500/5 border border-red-500/20 rounded-2xl text-center hover:bg-red-500/10 transition-all">
               <div className="text-5xl font-black text-red-400 mb-4">85%</div>
@@ -175,7 +175,7 @@ const App = () => {
           </div>
 
           <div className="text-center p-8 bg-violet-500/10 border border-violet-500/20 rounded-2xl">
-            <p className="text-lg font-semibold text-violet-300">Scale your output 10x without hiring a single new employee.</p>
+            <p className="text-lg font-semibold text-violet-300">Flowify helps you scale your output 10x without hiring a single new employee.</p>
           </div>
         </div>
       </section>
