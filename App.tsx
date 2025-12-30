@@ -309,8 +309,8 @@ const App = () => {
               <div className="inline-block px-4 py-2 bg-violet-500/10 border border-violet-500/20 rounded-full text-violet-300 text-sm font-bold mb-6">
                 The Flowify Advantage
               </div>
-              <h2 className="text-4xl md:text-5xl font-black mb-6">Done-For-You Revenue Improvement</h2>
-              <p className="text-lg text-slate-400 mb-8 leading-relaxed">Flowify isn't software—it's a complete Revenue Improvement Strategy. We build custom automation workflows that integrate with your existing tools, capturing more opportunities while freeing your team to focus on high-value work.</p>
+              <h2 className="text-4xl md:text-5xl font-black mb-6">Your Growth Infrastructure, Built for You</h2>
+              <p className="text-lg text-slate-400 mb-8 leading-relaxed">Flowify isn't just a service—it's a complete operational upgrade. We build custom automation workflows layer that integrate with your existing tools and lets your business scale without breaking.</p>
               
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
@@ -320,9 +320,9 @@ const App = () => {
                     </svg>
                   </div>
                   <div>
-                    <div className="font-bold mb-1">Centralized Intelligence</div>
-                    <div className="text-sm text-slate-500 line-through">Scattered inboxes</div>
-                    <div className="text-sm text-violet-400">→ Single command center</div>
+                    <div className="font-bold mb-1">Unified Command Center</div>
+                    <div className="text-sm text-slate-500 line-through">Scattered tools & data silos</div>
+                    <div className="text-sm text-violet-400">→ Single Source of Truth</div>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -332,9 +332,9 @@ const App = () => {
                     </svg>
                   </div>
                   <div>
-                    <div className="font-bold mb-1">Priority Scoring</div>
-                    <div className="text-sm text-slate-500 line-through">Guesswork and gut feel</div>
-                    <div className="text-sm text-violet-400">→ Data-driven decisions</div>
+                    <div className="font-bold mb-1">Zero-Touch Execution</div>
+                    <div className="text-sm text-slate-500 line-through">Manual busywork</div>
+                    <div className="text-sm text-violet-400">→ Error-Free Automation</div>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -344,9 +344,9 @@ const App = () => {
                     </svg>
                   </div>
                   <div>
-                    <div className="font-bold mb-1">Consistent Follow-Up</div>
-                    <div className="text-sm text-slate-500 line-through">Forgotten messages</div>
-                    <div className="text-sm text-violet-400">→ Zero opportunity loss</div>
+                    <div className="font-bold mb-1">Scalable Architecture</div>
+                    <div className="text-sm text-slate-500 line-through">Hitting a growth ceiling</div>
+                    <div className="text-sm text-violet-400">→ Built to Scale</div>
                   </div>
                 </div>
               </div>
@@ -355,7 +355,7 @@ const App = () => {
             <div className="p-8 bg-gradient-to-br from-violet-500/10 to-purple-500/10 rounded-2xl border border-violet-500/20">
               <div className="text-center mb-8">
                 <div className="text-sm font-bold text-violet-300 mb-2">Money-Back Guarantee</div>
-                <p className="text-lg">If we don't recover 10+ hours weekly in the first month, we'll work for free until we do.</p>
+                <p className="text-lg">If we don't recover 10+ hours of weekly capacity in the first month, we'll keep building for free until we do.</p>
               </div>
               <a href="#contact" className="block w-full py-4 text-center bg-gradient-to-r from-violet-600 to-purple-600 rounded-xl font-bold hover:shadow-xl hover:shadow-violet-500/50 transition-all">
                 Claim Your Free Audit
