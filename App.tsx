@@ -184,7 +184,7 @@ const App = () => {
       <section id="how-it-works" className="py-24 px-6">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-20">
-            <h2 className="text-4xl md:text-6xl font-black mb-6">Three Steps to Revenue Recovery</h2>
+            <h2 className="text-4xl md:text-6xl font-black mb-6">Three Steps to Operational Excellence</h2>
             <p className="text-xl text-slate-400">No complex implementation. No disruption. Just results.</p>
           </div>
 
@@ -192,10 +192,10 @@ const App = () => {
             <div className="flex flex-col md:flex-row gap-12 items-center">
               <div className="flex-1">
                 <div className="inline-block px-4 py-2 bg-violet-500/10 border border-violet-500/20 rounded-full text-violet-300 text-sm font-bold mb-6">
-                  Step 1
+                  Step 1: The "Audit"
                 </div>
-                <h3 className="text-3xl font-black mb-4">Revenue Leak Analysis</h3>
-                <p className="text-lg text-slate-400 mb-6">In 30 minutes, we map exactly where time and money are slipping through the cracks.</p>
+                <h3 className="text-3xl font-black mb-4">The Bottleneck Blueprint</h3>
+                <p className="text-lg text-slate-400 mb-6">In 30 minutes, we map exactly where your team is losing time. We don't just guess, we identify the specific manual tasks that are killing your margins.</p>
                 <ul className="space-y-3">
                   <li className="flex items-center gap-3 text-slate-300">
                     <svg className="w-5 h-5 text-violet-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
@@ -207,7 +207,7 @@ const App = () => {
                     <svg className="w-5 h-5 text-violet-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
-                    Bottleneck identification
+                    Friction point identification
                   </li>
                   <li className="flex items-center gap-3 text-slate-300">
                     <svg className="w-5 h-5 text-violet-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
@@ -227,28 +227,28 @@ const App = () => {
             <div className="flex flex-col md:flex-row-reverse gap-12 items-center">
               <div className="flex-1">
                 <div className="inline-block px-4 py-2 bg-violet-500/10 border border-violet-500/20 rounded-full text-violet-300 text-sm font-bold mb-6">
-                  Step 2
+                  Step 2: The "Build"
                 </div>
-                <h3 className="text-3xl font-black mb-4">Opportunity Capture System</h3>
-                <p className="text-lg text-slate-400 mb-6">We centralize all enquiries, auto-classify by intent, and route to the right person instantly.</p>
+                <h3 className="text-3xl font-black mb-4">The Custom Engine</h3>
+                <p className="text-lg text-slate-400 mb-6">We build a tailored, automated workflow designed for your specific process. Whether it's CRM routing, finance syncing, or support triage, we automate it 100%.</p>
                 <ul className="space-y-3">
                   <li className="flex items-center gap-3 text-slate-300">
                     <svg className="w-5 h-5 text-violet-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
-                    Multi-channel integration
+                    Tailored logic & integration
                   </li>
                   <li className="flex items-center gap-3 text-slate-300">
                     <svg className="w-5 h-5 text-violet-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
-                    Smart classification
+                    Zero-downtime deployment
                   </li>
                   <li className="flex items-center gap-3 text-slate-300">
                     <svg className="w-5 h-5 text-violet-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
-                    Instant routing
+                    Human-in-the-loop safeguards
                   </li>
                 </ul>
               </div>
@@ -262,28 +262,28 @@ const App = () => {
             <div className="flex flex-col md:flex-row gap-12 items-center">
               <div className="flex-1">
                 <div className="inline-block px-4 py-2 bg-violet-500/10 border border-violet-500/20 rounded-full text-violet-300 text-sm font-bold mb-6">
-                  Step 3
+                  Step 3: The "Handover"
                 </div>
-                <h3 className="text-3xl font-black mb-4">Smart Follow-Up Assistant</h3>
-                <p className="text-lg text-slate-400 mb-6">Your prospects get personalized, timely responses without your team typing a word.</p>
+                <h3 className="text-3xl font-black mb-4">The Pilot's Seat</h3>
+                <p className="text-lg text-slate-400 mb-6">You get the keys. We provide a live dashboard to track every hour saved and every dollar generated. You stay in control without doing the work.</p>
                 <ul className="space-y-3">
                   <li className="flex items-center gap-3 text-slate-300">
                     <svg className="w-5 h-5 text-violet-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
-                    Context-aware replies
+                    Real-time performance metrics
                   </li>
                   <li className="flex items-center gap-3 text-slate-300">
                     <svg className="w-5 h-5 text-violet-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
-                    Meeting scheduling
+                    Full flexibility to adjust
                   </li>
                   <li className="flex items-center gap-3 text-slate-300">
                     <svg className="w-5 h-5 text-violet-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
-                    CRM sync
+                    Ongoing optimization support
                   </li>
                 </ul>
               </div>
@@ -296,7 +296,7 @@ const App = () => {
           </div>
 
           <div className="mt-20 text-center p-8 bg-slate-900/50 backdrop-blur-sm rounded-2xl border border-violet-500/20">
-            <p className="text-lg font-semibold">Everything appears in a real-time dashboard. One source of truth for your entire team.</p>
+            <p className="text-lg font-semibold">Everything lives in a real-time dashboard. One source of truth for your entire team.</p>
           </div>
         </div>
       </section>
