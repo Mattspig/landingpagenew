@@ -175,7 +175,7 @@ const App = () => {
           </div>
 
           <div className="text-center p-8 bg-violet-500/10 border border-violet-500/20 rounded-2xl">
-            <p className="text-lg font-semibold text-violet-300">Flowify helps you scale your output 10x without hiring a single new employee.</p>
+            <p className="text-lg font-semibold text-violet-300">Flowify scales your output 10x without hiring a single new employee.</p>
           </div>
         </div>
       </section>
