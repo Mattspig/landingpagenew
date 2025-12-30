@@ -373,9 +373,9 @@ const App = () => {
           <div className="grid md:grid-cols-3 gap-12 items-start">
             <div className="md:col-span-1">
               <img
-  src="/Matt.jpg"
-  alt="Matt"
-  className="w-64 h-80 rounded-2xl object-cover"
+  src="/Matt1.png"
+  alt="Matt1"
+  className="w-70 h-70 rounded-2xl object-cover"
 />
               <div className="text-center mt-4">
                 <div className="font-bold text-lg">Matthieu Spigarelli</div>
