@@ -152,30 +152,30 @@ const App = () => {
       <section id="problems" className="py-24 px-6 bg-slate-950/50">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-6xl font-black mb-6">The Hidden Cost of Manual Follow-Up</h2>
-            <p className="text-xl text-slate-400">Every delayed response is lost revenue. Here's what's really happening:</p>
+            <h2 className="text-4xl md:text-6xl font-black mb-6">Why Your Team Is Busy But Your Business Isn't Scaling</h2>
+            <p className="text-xl text-slate-400">You're hitting the "Complexity Ceiling." Adding more people won't fix it—automating the chaos will.</p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-6 mb-12">
             <div className="p-8 bg-red-500/5 border border-red-500/20 rounded-2xl text-center hover:bg-red-500/10 transition-all">
-              <div className="text-5xl font-black text-red-400 mb-4">73%</div>
-              <div className="text-lg font-semibold mb-2">of leads expect response within an hour</div>
-              <div className="text-sm text-slate-500">Yours wait hours or days</div>
-            </div>
-            <div className="p-8 bg-red-500/5 border border-red-500/20 rounded-2xl text-center hover:bg-red-500/10 transition-all">
-              <div className="text-5xl font-black text-red-400 mb-4">40hrs</div>
-              <div className="text-lg font-semibold mb-2">wasted monthly on email triage</div>
-              <div className="text-sm text-slate-500">Senior staff doing junior work</div>
+              <div className="text-5xl font-black text-red-400 mb-4">54%</div>
+              <div className="text-lg font-semibold mb-2">of Talent Wasted</div>
+              <div className="text-sm text-slate-500">on repetitive admin instead of high-value strategy</div>
             </div>
             <div className="p-8 bg-red-500/5 border border-red-500/20 rounded-2xl text-center hover:bg-red-500/10 transition-all">
               <div className="text-5xl font-black text-red-400 mb-4">0</div>
-              <div className="text-lg font-semibold mb-2">visibility into lead status</div>
-              <div className="text-sm text-slate-500">No dashboard, just chaos</div>
+              <div className="text-lg font-semibold mb-2">Lag Time</div>
+              <div className="text-sm text-slate-500">between a trigger and an action</div>
+            </div>
+            <div className="p-8 bg-red-500/5 border border-red-500/20 rounded-2xl text-center hover:bg-red-500/10 transition-all">
+              <div className="text-5xl font-black text-red-400 mb-4">85%</div>
+              <div className="text-lg font-semibold mb-2">Capacity</div>
+              <div className="text-sm text-slate-500">where most teams burn out and churn</div>
             </div>
           </div>
 
           <div className="text-center p-8 bg-violet-500/10 border border-violet-500/20 rounded-2xl">
-            <p className="text-lg font-semibold text-violet-300">Even fixing one of these recovers 10+ hours weekly for a small team.</p>
+            <p className="text-lg font-semibold text-violet-300">Scale your output 10x without hiring a single new employee.</p>
           </div>
         </div>
       </section>
