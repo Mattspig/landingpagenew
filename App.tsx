@@ -375,7 +375,7 @@ const App = () => {
               <img
   src="/Matt.jpg"
   alt="Matt"
-  className="w-64 h-84 rounded-2xl object-cover"
+  className="w-64 h-80 rounded-2xl object-cover"
 />
               <div className="text-center mt-4">
                 <div className="font-bold text-lg">Matthieu Spigarelli</div>
