@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Contact from './components/Contact';
 import { translations } from './translations';
-import { Unplug, EyeOff, Anchor } from 'lucide-react';
+import { Unplug, EyeOff, Ban } from 'lucide-react';
 
 const App = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -137,7 +137,7 @@ const App = () => {
             </div>
             <div className="group p-8 bg-slate-900/50 backdrop-blur-sm rounded-2xl border border-slate-800 hover:border-violet-500/50 transition-all hover:transform hover:-translate-y-2">
               <div className="w-14 h-14 bg-gradient-to-br from-violet-500/20 to-purple-500/20 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                <Anchor className="w-7 h-7 text-violet-400" />
+                <Ban className="w-7 h-7 text-violet-400" />
               </div>
               <h3 className="text-xl font-bold mb-3">Stalled Strategic Growth</h3>
               <p className="text-slate-400 leading-relaxed">Your best talent is buried in repetitive admin instead of high-value work. You can’t scale your operations without linearly increasing your payroll.</p>
