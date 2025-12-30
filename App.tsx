@@ -61,9 +61,9 @@ const App = () => {
           </div>
 
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-white mb-8 leading-tight">
-          Turn <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">Friction Points</span><br className="hidden md:block" />
-          Into Revenue While You<br className="hidden md:block" />
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">Focus on Growth</span>
+          Turn <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">Obstacles</span><br className="hidden md:block" />
+          Into Revenue So You<br className="hidden md:block" />
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400"> Can Keep Growing</span>
         </h1>
 
           <p className="text-lg md:text-xl text-slate-400 mb-12 max-w-3xl mx-auto leading-relaxed">
@@ -152,7 +152,7 @@ const App = () => {
       <section id="problems" className="py-24 px-6 bg-slate-950/50">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-6xl font-black mb-6">Why Your Team Is Busy But Your Business Isn't Scaling</h2>
+            <h2 className="text-4xl md:text-6xl font-black mb-6">You're Growing,<br className="hidden md:block" /> But Are You Scaling?</h2>
             <p className="text-xl text-slate-400">You're hitting the "Complexity Ceiling." Adding more people won't fix it—automating the chaos will.</p>
           </div>
 
@@ -368,7 +368,7 @@ const App = () => {
       {/* About */}
       <section id="about" className="py-24 px-6">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-4xl md:text-6xl font-black text-center mb-16">Built by Operators,<br className="hidden md:block" /> For Operators</h2>
+          <h2 className="text-4xl md:text-6xl font-black text-center mb-16">Built by busy Entrepreneurs,<br className="hidden md:block" /> For busy Entrepreneurs</h2>
           
           <div className="grid md:grid-cols-3 gap-12 items-start">
             <div className="md:col-span-1">
