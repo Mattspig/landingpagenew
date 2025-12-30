@@ -372,7 +372,11 @@ const App = () => {
           
           <div className="grid md:grid-cols-3 gap-12 items-start">
             <div className="md:col-span-1">
-              <div className="aspect-square bg-gradient-to-br from-violet-500 to-purple-600 rounded-2xl" />
+              <img
+  src="/Matt.jpg"
+  alt="Matt"
+  className="w-64 h-64 rounded-2xl object-cover"
+/>
               <div className="text-center mt-4">
                 <div className="font-bold text-lg">Matthieu Spigarelli</div>
                 <div className="text-sm text-slate-500">Founder</div>
