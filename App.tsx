@@ -56,18 +56,18 @@ const App = () => {
 
         <div className="max-w-6xl mx-auto relative z-10 text-center">
           <div className="inline-block px-4 py-2 bg-violet-500/10 border border-violet-500/20 rounded-full text-violet-300 text-sm font-semibold mb-8 backdrop-blur-sm">
-            Revenue Automation for Modern Teams
+            Workflow Automation for Busy Teams
           </div>
 
           <h1 className="text-6xl md:text-8xl font-black tracking-tight mb-6 leading-none">
-            <span className="block text-white">Turn Enquiries Into Revenue</span>
+            <span className="block text-white">Turn Friction Points Into Revenue</span>
             <span className="block bg-gradient-to-r from-violet-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
-              While You Sleep
+              While You Focus on Growth
             </span>
           </h1>
 
           <p className="text-xl md:text-2xl text-slate-400 mb-12 max-w-3xl mx-auto leading-relaxed">
-            Capture, qualify, and respond to every lead in minutes—not hours. Free your team from manual follow-ups and never miss an opportunity again.
+            Capture every opportunity in minutes, not hours. We identify where you lose time, build your custom workflow, and free your team from manual work.
           </p>
 
          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
@@ -93,21 +93,21 @@ const App = () => {
 
           <div className="grid grid-cols-3 gap-8 max-w-3xl mx-auto p-8 bg-slate-900/50 backdrop-blur-xl rounded-2xl border border-white/5">
             <div className="text-center">
-              <div className="text-3xl md:text-4xl font-black bg-gradient-to-r from-violet-400 to-purple-400 bg-clip-text text-transparent mb-2">45s</div>
-              <div className="text-sm text-slate-400 font-medium">Avg Response Time</div>
+              <div className="text-3xl md:text-4xl font-black bg-gradient-to-r from-violet-400 to-purple-400 bg-clip-text text-transparent mb-2">10+ Hours/Week</div>
+              <div className="text-sm text-slate-400 font-medium">Time Saved</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl md:text-4xl font-black bg-gradient-to-r from-violet-400 to-purple-400 bg-clip-text text-transparent mb-2">61%</div>
-              <div className="text-sm text-slate-400 font-medium">Auto-Handled</div>
+              <div className="text-3xl md:text-4xl font-black bg-gradient-to-r from-violet-400 to-purple-400 bg-clip-text text-transparent mb-2">500+ Tasks/Month</div>
+              <div className="text-sm text-slate-400 font-medium">Tasks Automated</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl md:text-4xl font-black bg-gradient-to-r from-violet-400 to-purple-400 bg-clip-text text-transparent mb-2">24%</div>
-              <div className="text-sm text-slate-400 font-medium">Revenue Increase</div>
+              <div className="text-3xl md:text-4xl font-black bg-gradient-to-r from-violet-400 to-purple-400 bg-clip-text text-transparent mb-2">3x</div>
+              <div className="text-sm text-slate-400 font-medium">ROI</div>
             </div>
           </div>
 
           <p className="mt-12 text-sm text-slate-500 uppercase tracking-widest font-semibold">
-            Trusted by teams managing 500+ enquiries monthly
+            Built for Luxembourg businesses handling 100+ leads, inquiries, or tasks weekly
           </p>
         </div>
       </section>
