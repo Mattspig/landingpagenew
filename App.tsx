@@ -59,12 +59,11 @@ const App = () => {
             Workflow Automation for Busy Teams
           </div>
 
-          <h1 className="text-6xl md:text-8xl font-black tracking-tight mb-6 leading-none">
-            <span className="block text-white">Turn Friction Points Into Revenue</span>
-            <span className="block bg-gradient-to-r from-violet-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
-              While You Focus on Growth
-            </span>
-          </h1>
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-white mb-8 leading-tight">
+          Turn <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">Friction Points</span><br className="hidden md:block" />
+          Into Revenue While You<br className="hidden md:block" />
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">Focus on Growth</span>
+        </h1>
 
           <p className="text-xl md:text-2xl text-slate-400 mb-12 max-w-3xl mx-auto leading-relaxed">
             Capture every opportunity in minutes, not hours. We identify where you lose time, build your custom workflow, and free your team from manual work.
@@ -91,20 +90,20 @@ const App = () => {
   </a>
 </div>
 
-          <div className="grid grid-cols-3 gap-8 max-w-3xl mx-auto p-8 bg-slate-900/50 backdrop-blur-xl rounded-2xl border border-white/5">
-            <div className="text-center">
-              <div className="text-3xl md:text-4xl font-black bg-gradient-to-r from-violet-400 to-purple-400 bg-clip-text text-transparent mb-2">10+ Hours/Week</div>
-              <div className="text-sm text-slate-400 font-medium">Time Saved</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl md:text-4xl font-black bg-gradient-to-r from-violet-400 to-purple-400 bg-clip-text text-transparent mb-2">500+ Tasks/Month</div>
-              <div className="text-sm text-slate-400 font-medium">Tasks Automated</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl md:text-4xl font-black bg-gradient-to-r from-violet-400 to-purple-400 bg-clip-text text-transparent mb-2">3x</div>
-              <div className="text-sm text-slate-400 font-medium">ROI</div>
-            </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-3xl mx-auto pt-8 border-t border-white/10">
+          <div className="flex flex-col items-center">
+            <span className="text-3xl font-bold text-white mb-1">10+</span>
+            <span className="text-sm text-gray-400 uppercase tracking-wider">Hours Saved / Week</span>
           </div>
+          <div className="flex flex-col items-center">
+            <span className="text-3xl font-bold text-white mb-1">500+</span>
+            <span className="text-sm text-gray-400 uppercase tracking-wider">Tasks Automated / Month</span>
+          </div>
+          <div className="flex flex-col items-center">
+            <span className="text-3xl font-bold text-white mb-1">3x</span>
+            <span className="text-sm text-gray-400 uppercase tracking-wider">ROI from day one</span>
+          </div>
+        </div>
 
           <p className="mt-12 text-sm text-slate-500 uppercase tracking-widest font-semibold">
             Built for Luxembourg businesses handling 100+ leads, inquiries, or tasks weekly
