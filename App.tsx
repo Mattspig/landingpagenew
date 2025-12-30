@@ -115,8 +115,8 @@ const App = () => {
       <section id="who" className="py-24 px-6 relative">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-6xl font-black mb-6">Built for Teams Who Value Every Lead</h2>
-            <p className="text-xl text-slate-400 max-w-3xl mx-auto">If you're drowning in enquiries and losing opportunities to slow follow-ups, Flowify is your solution.</p>
+            <h2 className="text-4xl md:text-6xl font-black mb-6">Built for Leaders Who Want to Move Faster</h2>
+            <p className="text-xl text-slate-400 max-w-3xl mx-auto">Your business is unique, but your bottlenecks aren't. We silence the noise and automate the friction that slows you down.</p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8 mb-12">
@@ -126,8 +126,8 @@ const App = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold mb-3">Scattered Channels</h3>
-              <p className="text-slate-400 leading-relaxed">Leads arrive via forms, email, portals—everywhere and nowhere at once.</p>
+              <h3 className="text-xl font-bold mb-3">Systems That Don't Talk</h3>
+              <p className="text-slate-400 leading-relaxed">Your CRM, email, and accounting tools live in isolation. You're paying humans to copy-paste data between tabs just to keep things moving.</p>
             </div>
             <div className="group p-8 bg-slate-900/50 backdrop-blur-sm rounded-2xl border border-slate-800 hover:border-violet-500/50 transition-all hover:transform hover:-translate-y-2">
               <div className="w-14 h-14 bg-gradient-to-br from-violet-500/20 to-purple-500/20 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
@@ -135,8 +135,8 @@ const App = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold mb-3">Manual Bottlenecks</h3>
-              <p className="text-slate-400 leading-relaxed">Your team wastes hours qualifying, routing, and scheduling instead of closing.</p>
+              <h3 className="text-xl font-bold mb-3">Invisible Inefficiencies</h3>
+              <p className="text-slate-400 leading-relaxed">Processes stall because they rely on one person’s memory or inbox. When they're out, everything stops. You have no visibility into where things are stuck.</p>
             </div>
             <div className="group p-8 bg-slate-900/50 backdrop-blur-sm rounded-2xl border border-slate-800 hover:border-violet-500/50 transition-all hover:transform hover:-translate-y-2">
               <div className="w-14 h-14 bg-gradient-to-br from-violet-500/20 to-purple-500/20 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
@@ -144,8 +144,8 @@ const App = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold mb-3">Revenue Gaps</h3>
-              <p className="text-slate-400 leading-relaxed">You're ready to scale but can't justify hiring just to handle admin.</p>
+              <h3 className="text-xl font-bold mb-3">Stalled Strategic Growth</h3>
+              <p className="text-slate-400 leading-relaxed">Your best talent is buried in repetitive admin instead of high-value work. You can’t scale your operations without linearly increasing your payroll.</p>
             </div>
           </div>
 
