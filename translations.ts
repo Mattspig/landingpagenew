@@ -69,8 +69,8 @@ export const translations: Record<'en' | 'fr', TranslationType> = {
       lang: "FR",
     },
     hero: {
-      headline: "Turn every enquiry into revenue, automatically.",
-      subheadline: "We capture and qualify your incoming enquiries, reply in minutes, and free your team from manual follow‑ups.",
+      headline: "Turn Friction Points Into Revenue While You Focus on Growth",
+      subheadline: "Capture every opportunity in minutes, not hours. We identify where you lose time, build your custom workflow, and free your team from manual work.",
       primaryCTA: "Book a 30-minute discovery call",
       secondaryCTA: "Contact us",
       trustLine: "Built for busy teams drowning in emails, leads and follow-ups.",
