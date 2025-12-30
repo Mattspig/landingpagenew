@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Contact from './components/Contact';
 import { translations } from './translations';
+import { Unplug, EyeOff, TrendingFlat } from 'lucide-react';
 
 const App = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -122,27 +123,21 @@ const App = () => {
           <div className="grid md:grid-cols-3 gap-8 mb-12">
             <div className="group p-8 bg-slate-900/50 backdrop-blur-sm rounded-2xl border border-slate-800 hover:border-violet-500/50 transition-all hover:transform hover:-translate-y-2">
               <div className="w-14 h-14 bg-gradient-to-br from-violet-500/20 to-purple-500/20 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                <svg className="w-7 h-7 text-violet-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                </svg>
+                <Unplug className="w-7 h-7 text-violet-400" />
               </div>
               <h3 className="text-xl font-bold mb-3">Systems That Don't Talk</h3>
               <p className="text-slate-400 leading-relaxed">Your CRM, email, and accounting tools live in isolation. You're paying humans to copy-paste data between tabs just to keep things moving.</p>
             </div>
             <div className="group p-8 bg-slate-900/50 backdrop-blur-sm rounded-2xl border border-slate-800 hover:border-violet-500/50 transition-all hover:transform hover:-translate-y-2">
               <div className="w-14 h-14 bg-gradient-to-br from-violet-500/20 to-purple-500/20 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                <svg className="w-7 h-7 text-violet-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                </svg>
+                <EyeOff className="w-7 h-7 text-violet-400" />
               </div>
               <h3 className="text-xl font-bold mb-3">Invisible Inefficiencies</h3>
               <p className="text-slate-400 leading-relaxed">Processes stall because they rely on one person’s memory or inbox. When they're out, everything stops. You have no visibility into where things are stuck.</p>
             </div>
             <div className="group p-8 bg-slate-900/50 backdrop-blur-sm rounded-2xl border border-slate-800 hover:border-violet-500/50 transition-all hover:transform hover:-translate-y-2">
               <div className="w-14 h-14 bg-gradient-to-br from-violet-500/20 to-purple-500/20 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                <svg className="w-7 h-7 text-violet-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                </svg>
+                <TrendingFlat className="w-7 h-7 text-violet-400" />
               </div>
               <h3 className="text-xl font-bold mb-3">Stalled Strategic Growth</h3>
               <p className="text-slate-400 leading-relaxed">Your best talent is buried in repetitive admin instead of high-value work. You can’t scale your operations without linearly increasing your payroll.</p>
