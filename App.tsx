@@ -66,7 +66,7 @@ const App = () => {
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">Focus on Growth</span>
         </h1>
 
-          <p className="text-xl md:text-2xl text-slate-400 mb-12 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-lg md:text-xl text-slate-400 mb-12 max-w-3xl mx-auto leading-relaxed">
             Capture every opportunity in minutes, not hours. We identify where you lose time, build your custom workflow, and free your team from manual work.
           </p>
 
@@ -116,7 +116,7 @@ const App = () => {
       <section id="who" className="py-24 px-6 relative">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-6xl font-black mb-6">Built for Leaders Who Want to Move Faster</h2>
+            <h2 className="text-4xl md:text-6xl font-black mb-6">Built for Leaders Who Want<br className="hidden md:block" /> to Move Faster</h2>
             <p className="text-xl text-slate-400 max-w-3xl mx-auto">Your business is unique, but your bottlenecks aren't. We silence the noise and automate the friction that slows you down.</p>
           </div>
 
@@ -368,7 +368,7 @@ const App = () => {
       {/* About */}
       <section id="about" className="py-24 px-6">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-4xl md:text-6xl font-black text-center mb-16">Built by Operators, For Operators</h2>
+          <h2 className="text-4xl md:text-6xl font-black text-center mb-16">Built by Operators,<br className="hidden md:block" /> For Operators</h2>
           
           <div className="grid md:grid-cols-3 gap-12 items-start">
             <div className="md:col-span-1">
