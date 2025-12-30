@@ -380,10 +380,10 @@ const App = () => {
             </div>
             
             <div className="md:col-span-2 space-y-6 text-lg text-slate-300 leading-relaxed">
-              <p>After a decade in sales and operations, I watched teams repeatedly drown in manual coordination. The pattern was everywhere: talented people buried in administrative tasks that automation should handle.</p>
-              <p>Flowify brings enterprise-grade automation to small teams. We're starting with service businesses in Luxembourg, proving that you don't need a big company budget to operate like one.</p>
+              <p>After 10 years in operations, I got tired of seeing brilliant teams slowed down by bad processes. I watched talented people waste hours on copy-pasting data instead of closing deals.</p>
+              <p>I built Flowify to fix that. We bring enterprise-grade automation to ambitious teams in Luxembourg—proving that you don’t need a massive budget to operate like a market leader.</p>
               <div className="p-6 bg-violet-500/10 border-l-4 border-violet-500 rounded-r-xl">
-                <p className="font-semibold text-white italic">"Every team should have the tools to maximize revenue without burning out."</p>
+                <p className="font-semibold text-white italic">"You shouldn't have to hire more people just to handle more success. Your systems should scale with you."</p>
               </div>
             </div>
           </div>
