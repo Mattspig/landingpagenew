@@ -184,7 +184,7 @@ const App = () => {
       <section id="how-it-works" className="py-24 px-6">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-20">
-            <h2 className="text-4xl md:text-6xl font-black mb-6">Three Steps to Operational Excellence</h2>
+            <h2 className="text-4xl md:text-6xl font-black mb-6">Three Steps to <br className="hidden md:block" /> Operational Excellence</h2>
             <p className="text-xl text-slate-400">No complex implementation. No disruption. Just results.</p>
           </div>
 
@@ -309,7 +309,7 @@ const App = () => {
               <div className="inline-block px-4 py-2 bg-violet-500/10 border border-violet-500/20 rounded-full text-violet-300 text-sm font-bold mb-6">
                 The Flowify Advantage
               </div>
-              <h2 className="text-4xl md:text-5xl font-black mb-6">Your Growth Infrastructure, Built for You</h2>
+              <h2 className="text-4xl md:text-5xl font-black mb-6">Your Growth Infrastructure,<br className="hidden md:block" /> Built for You</h2>
               <p className="text-lg text-slate-400 mb-8 leading-relaxed">Flowify isn't just a service—it's a complete operational upgrade. We build custom automation workflows layer that integrate with your existing tools and lets your business scale without breaking.</p>
               
               <div className="space-y-6">
